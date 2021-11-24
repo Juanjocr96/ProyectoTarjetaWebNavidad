@@ -1,10 +1,14 @@
 /*---Layout*---*/
+/*
+html{
+  width: 1366px;
+}
+*/
 *{
   margin: 0 auto;
   paddin: 0;
 }
 body{
-  width: 1600px;
   background-color: #c81b1b;
   font-family: Courgette;
   font-size: 14px;
@@ -15,29 +19,33 @@ header{
 }
 main{
   background-color: #7a0808;
-  height: 1200px;
+  width: 1366px;
+  height: 1500px;
   position: relative;
 }
-.felicitacion{
-  width: 600px;
+#felicitacion{
+  width: 400px;
   position: absolute;
   left: 30px;
   top: 30px;
+  padding-left:30px;
 }
-.justicia{
+#justicia{
   position: absolute;
   background-color: white;
   height: 700px;
-  width: 900px;
+  width: 600px;
   top: 30px;
   left: 670px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.js{
+#js{
   background-color: #1ac748;
   position: absolute;
   width: 600px;
   height: 500px;
-  top: 650px;
+  top: 850px;
   left: 30px;
 }
 footer{
@@ -54,7 +62,7 @@ h1{
 p{
   text-align: justify;
 }
-.video{
+#video{
   background-color: white;
   height: 300px;
   width: 500px;
@@ -63,15 +71,17 @@ p{
 
 /*Estilos div Justicia*/
 
-.justicia > h2 {
+#justicia > h2 {
   text-align: center;
   padding: 10px;
 }
 
-.justicia > p {
+#cajaparrafo {
   position: absolute;
   top: 400px;
   padding: 10px;
+  background-color: pink;
+  width: 580px;
 }
 
 #img1{
@@ -80,7 +90,7 @@ p{
   background-color: pink;
   position: absolute;
   top: 100px;
-  left: 100px;
+  left: 50px;
 }
 #img2{
   height: 200px;
@@ -88,7 +98,7 @@ p{
   background-color: yellow;
   position: absolute;
   top: 130px;
-  left: 280px;
+  left: 150px;
 }
 #img3{
   height: 200px;
@@ -96,7 +106,7 @@ p{
   background-color: purple;
   position: absolute;
   top: 100px;
-  left: 460px;
+  left: 300px;
 }
 #img4{
   height: 200px;
@@ -104,5 +114,5 @@ p{
   background-color: cyan;
   position: absolute;
   top: 150px;
-  left: 640px;
+  left: 380px;
 }
