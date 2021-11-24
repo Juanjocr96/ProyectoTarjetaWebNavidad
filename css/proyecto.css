@@ -14,7 +14,7 @@ body{
   font-size: 14px;
 }
 header{
-  height: 100px;
+  height: 80px;
   background-color: #007a23;
 }
 main{
@@ -65,7 +65,7 @@ p{
 #video{
   background-color: white;
   height: 300px;
-  width: 500px;
+  width: 400px;
   margin-top: 20px;
 }
 
