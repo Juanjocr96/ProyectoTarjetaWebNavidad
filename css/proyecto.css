@@ -4,48 +4,55 @@ html{
   width: 1366px;
 }
 */
+
+/*Reset estilos*/
+
 *{
-  margin: 0 auto;
-  paddin: 0;
+  margin: 0;
+  padding: 0;
 }
+
+/*Layout*/
+
 body{
-  background-color: #c81b1b;
+  background-image: url("../img/navidad.jpg");
   font-family: Courgette;
   font-size: 14px;
+  width: 1366px;
+  margin-left: 28px;
 }
 header{
-  height: 80px;
+  height: 50px;
   background-color: #007a23;
+  padding-top: 10px;
 }
 main{
   background-color: #7a0808;
   width: 1366px;
-  height: 1500px;
-  position: relative;
+  height: 1610px;
 }
 #felicitacion{
-  width: 400px;
-  position: absolute;
-  left: 30px;
-  top: 30px;
+  width: 370px;
   padding-left:30px;
+  padding-top: 30px;
+  color: white;
+  margin-left: 50px;
 }
 #justicia{
-  position: absolute;
+  position: relative;
   background-color: white;
-  height: 700px;
+  min-height: 700px;
   width: 600px;
-  top: 30px;
-  left: 670px;
+  top: -800px;
+  left: 700px;
   padding-left: 10px;
   padding-right: 10px;
 }
 #js{
-  background-color: #1ac748;
   position: absolute;
   width: 600px;
-  height: 500px;
-  top: 850px;
+  height: 400px;
+  top: 1070px;
   left: 30px;
 }
 footer{
@@ -53,20 +60,30 @@ footer{
   background-color: #007a23;
   padding: 10px 10px;
 }
+
 /*-----------------*/
 
 /*---Estilos Generales---*/
-h1{
-  text-align: center;
-}
+
 p{
   text-align: justify;
 }
 #video{
-  background-color: white;
   height: 300px;
-  width: 400px;
+  width: 370px;
   margin-top: 20px;
+}
+iframe{
+  height: 300px;
+  width: 370px;
+}
+
+/*---------------------*/
+
+/*Estilos header*/
+
+h1{
+  text-align: center;
 }
 
 /*Estilos div Justicia*/
@@ -77,11 +94,16 @@ p{
 }
 
 #cajaparrafo {
+  background-color: #1B71C8;
+  color: white;
+  font-size: 1.03em;
+  width: 580px;
   position: absolute;
   top: 400px;
   padding: 10px;
-  background-color: pink;
-  width: 580px;
+}
+#cajaparrafo > p {
+  margin-bottom: 5px;
 }
 
 #img1{
@@ -115,4 +137,21 @@ p{
   position: absolute;
   top: 150px;
   left: 380px;
+}
+
+/*Estilos main*/
+
+
+/*Imagen de reyes magos*/
+
+img{
+  width: 100%;
+  height: auto;
+}
+#reyes{
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top: 900px;
+  left: 750px;
 }
